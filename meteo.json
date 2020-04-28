@@ -1,16 +1,27 @@
 {
     "locationID":"<int>",
     "time":"<Date>",
-    "temperature":"<int>",
-    "feels_like":"<int>",
-    "heat_index":"<int>",
+    "temperature":[
+        {"temp":"<int>","unit":"<string>"}
+        ],
+    "feels_like":[
+        {"temp":"<int>","unit":"<string>"}
+        ],
+    "heat_index":[
+        {"temp":"<int>","unit":"<string>"}
+        ],
+    "dew_point":[
+        {"temp":"<int>","unit":"<string>"}
+        ],
     "humidity":"<int>",
     "precipitation":"<int>",
     "barometer":"<int>",
-    "dew_point":"<int>",
-    "wind_speed":"<double>",
-    "wind_direction":"<string>",
+    "wind":[
+        {"spd":"<double>", "unit":"<string>", "dir":"<string>"}
+        ],
     "uv_index":"<int>",
-    "visibility":"<double>"
+    "visibility":[
+        {"dist":"<double>", "unit":"<string>"}
+        ]
     
     }
