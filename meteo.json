@@ -1,0 +1,16 @@
+{
+    "locationID":"<int>",
+    "time":"<Date>",
+    "temperature":"<int>",
+    "feels_like":"<int>",
+    "heat_index":"<int>",
+    "humidity":"<int>",
+    "precipitation":"<int>",
+    "barometer":"<int>",
+    "dew_point":"<int>",
+    "wind_speed":"<double>",
+    "wind_direction":"<string>",
+    "uv_index":"<int>",
+    "visibility":"<double>"
+    
+    }
